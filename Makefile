@@ -1,31 +1,31 @@
+PYTHON=python3
+
 # targets that aren't filenames
-.PHONY: all clean deploy build serve
+.PHONY: all clean deploy
 
-all: build
+all: _includes/pubs.html _site/index.html _site/wacas14/index.html
 
-BIBBLE = bibble
+BUILDARGS :=
+_site/index.html _site/wacas14/index.html:
+	jekyll build --config _config.yml $(BUILDARGS)
 
-_includes/pubs.html: bib/pubs.bib bib/publications.tmpl
+_includes/pubs.html: bib/sampa-pubs.bib bib/publications.tmpl
 	mkdir -p _includes
-	$(BIBBLE) $+ > $@
+	bibble $+ > $@
 
-build: _includes/pubs.html
-	jekyll build
-
-# you can configure these at the shell, e.g.:
-# SERVE_PORT=5001 make serve
-SERVE_HOST ?= 127.0.0.1
-SERVE_PORT ?= 5000
-
-serve: _includes/pubs.html
-	jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST)
+_site/index.html: $(wildcard *.html) _includes/pubs.html _config.yml \
+	_layouts/default.html
+_site/wacas14/index.html: $(wildcard wacas14/*.md) _config.yml \
+	_layouts/wacas.html
 
 clean:
 	$(RM) -r _site _includes/pubs.html
 
-DEPLOY_HOST ?= yourwebpage.com
-DEPLOY_PATH ?= www/
-RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e ssh
+CSEHOST := bicycle.cs.washington.edu
+RSYNCARGS := --compress --recursive --checksum --itemize-changes \
+	--delete -e ssh --perms --chmod=ug+rw
 
-deploy: clean build
-	$(RSYNC) _site/ $(DEPLOY_HOST):$(DEPLOY_PATH)
+rsync:
+	rsync $(RSYNCARGS) _site/ $(CSEHOST):/cse/www2/sampa/new
+
+deploy: clean all rsync

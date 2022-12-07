@@ -7,11 +7,16 @@ description: |
   fames ac turpis egestas.
 
 people:
-  - storm
-  - profx
-  - grad-b
-  - scott
-  - wolverine
+  - mehul-motani
+  - dylan-tan
+  - sien
+  - rohan-ghosh
+  - lihwei-chia
+  - chongmin-tan
+  - danliang-ho
+  - cheukting
+  - shelvia-wongso
+  - keisen-fong
 
 layout: project
 last-updated: 2015-05-05

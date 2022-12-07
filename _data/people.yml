@@ -2,10 +2,16 @@ profmehul:
     display_name: "Professor Mehul Motani"
     webpage: "https://mehulmotani.github.io"
     role: faculty
+    image: /img/people/profmehul.jpg
     bio: Associate Professor
 
 dylan-tan:
     display_name: "Dylan"
+    role: researcher
+    bio: Research Assistant
+
+sien:
+    display_name: "Si En"
     role: researcher
     bio: Research Assistant
 
@@ -22,17 +28,30 @@ lihwei-chia:
 chongmin-tan:
     display_name: "Chong Min"
     role: grad
+    bio: Ph.D. Student
 
-shiyu:
+danliang-ho:
+    display_name: "Dan Liang"
+    role: grad
+    bio: Ph.D. Student
+
+cheukting:
+    display_name: "Cheuk Ting"
+    role: grad
+    bio: Ph.D. Student
+
+shelvia-wongso:
+    display_name: "Shelvia Wongso"
+    role: grad
+    bio: Ph.D. Student
+
+keisen-fong:
+    display_name: "Kei Sen"
+    role: grad
+    bio: Ph.D. Student
+
+shiyu-liu:
     display_name: "Shi Yu"
     role: alum
     bio: "Ph.D., 2022. Now at Huawei."
-
-ugrad-a:
-    display_name: "Ugrad A"
-    role: ugrad
-
-ugrad-alum-a:
-    display_name: "Past Ugrad A"
-    role: ugrad-alum
 

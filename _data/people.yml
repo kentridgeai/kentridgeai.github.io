@@ -1,23 +1,9 @@
-
-prof-a:
-    display_name: "Prof A"
+profmehul:
+    display_name: "Professor Mehul Motani"
+    webpage: "https://mehulmotani.github.io"
     role: faculty
-
-prof-b:
-    display_name: "Prof B"
-    role: faculty
-
-prof-c:
-    display_name: "Prof C"
-    role: faculty
-
-profx:
-    display_name: "Professor X"
-    webpage: "http://en.wikipedia.org/wiki/Professor_X"
-    github: profx
-    role: faculty
-    image: /img/people/prof-x.png
-    bio: Professor
+    image: /img/people/prof-mehul.png
+    bio: Associate Professor
 
 scott:
     display_name: "Scott Summers"

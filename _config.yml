@@ -13,7 +13,7 @@ permalink: /blog/:year/:month/:day/:title.html
 roles:
   - key: faculty
     name: Faculty
-  - key: researcher
+  - key: staff
     name: Researchers
   - key: grad
     name: Graduate Students

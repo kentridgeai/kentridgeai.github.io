@@ -1,4 +1,4 @@
-profmehul:
+mehul-motani:
     display_name: "Professor Mehul Motani"
     webpage: "https://mehulmotani.github.io"
     role: faculty
@@ -7,17 +7,17 @@ profmehul:
 
 dylan-tan:
     display_name: "Dylan"
-    role: researcher
+    role: staff
     bio: Research Assistant
 
 sien:
     display_name: "Si En"
-    role: researcher
+    role: staff
     bio: Research Assistant
 
 rohan-ghosh:
     display_name: "Rohan Ghosh"
-    role: researcher
+    role: staff
     bio: Postdoctoral Scholar
 
 lihwei-chia:

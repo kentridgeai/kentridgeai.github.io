@@ -1,4 +1,4 @@
-name: Awesome Research Group
+name: Kent Ridge AI
 url: http://kentridgeai.github.io
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
@@ -13,9 +13,7 @@ permalink: /blog/:year/:month/:day/:title.html
 roles:
   - key: faculty
     name: Faculty
-  - key: staff
-    name: Staff
-  - key: postdoc
+  - key: researcher
     name: Researchers
   - key: grad
     name: Graduate Students

@@ -1,5 +1,5 @@
 name: Sampa
-url: kentridgeai.github.io
+url: http://sampa.cs.washington.edu
 
 exclude: [bibble, README.md, Makefile, Dockerfile]
 

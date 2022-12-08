@@ -3,3 +3,17 @@ layout: default
 title: People
 ---
 List of people here.
+
+picture-role-groups:
+- {roles: [faculty, postdoc, staff], width: 4}
+- {roles: [grad], width: 8}
+
+<section class="people row justify-content-between">
+    {% for role-group in page.picture-role-groups %}
+        <div class="col-md-{{ role-group.width }}">
+            {% for role in role-group.roles %}
+                {% include role-people.html role=role image=true %}
+            {% endfor %}
+        </div>
+    {% endfor %}
+</section>

@@ -6,12 +6,12 @@ mehul-motani:
     bio: Associate Professor
 
 dylan-tan:
-    display_name: "Dylan"
+    display_name: "Dylan Tan"
     role: staff
     bio: Research Assistant
 
-sien:
-    display_name: "Si En"
+sien-lee:
+    display_name: "Lee Si En"
     role: staff
     bio: Research Assistant
 
@@ -21,22 +21,22 @@ rohan-ghosh:
     bio: Postdoctoral Scholar
 
 lihwei-chia:
-    display_name: "Lih Wei"
+    display_name: "Chia Lih Wei"
     role: grad
     bio: Ph.D. Student
 
 chongmin-tan:
-    display_name: "Chong Min"
+    display_name: "Tan Chong Min"
     role: grad
     bio: Ph.D. Student
 
 danliang-ho:
-    display_name: "Dan Liang"
+    display_name: "Ho Dan Liang"
     role: grad
     bio: Ph.D. Student
 
-cheukting:
-    display_name: "Cheuk Ting"
+cheukting-leung:
+    display_name: "Leung Cheuk Ting"
     role: grad
     bio: Ph.D. Student
 
@@ -46,12 +46,12 @@ shelvia-wongso:
     bio: Ph.D. Student
 
 keisen-fong:
-    display_name: "Kei Sen"
+    display_name: "Fong Kei Sen"
     role: grad
     bio: Ph.D. Student
 
 shiyu-liu:
-    display_name: "Shi Yu"
+    display_name: "Liu Shi Yu"
     role: alum
     bio: "Ph.D., 2022. Now at Huawei."
 

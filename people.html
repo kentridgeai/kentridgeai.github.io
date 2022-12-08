@@ -17,32 +17,4 @@ title: People
     {% endfor %}
 </section> -->
 
-# groups of columns of {roles: list, width: num, image: bool}
-role-tables:
-- - roles: [faculty, staff]
-    width: 4
-    image: true
-  - roles: [grad]
-    width: 8
-    image: true
-- - roles: [collab]
-    width: 5
-    image: false
-  - roles: [alum]
-    width: 7
-    image: false
-
-<div id="people">
-    <h2>People</h2>
-    {% for role-table in page.role-tables %}
-        <section class="people row justify-content-between">
-            {% for role-column in role-table %}
-                <div class="col-md-{{ role-column.width }}">
-                    {% for role in role-column.roles %}
-                        {% include role-people.html role=role image=role-column.image %}
-                    {% endfor %}
-                </div>
-            {% endfor %}
-        </section>
-    {% endfor %}
-</div>
+{% include person.html %}

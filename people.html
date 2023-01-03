@@ -1,20 +1,31 @@
 ---
 layout: default
 title: People
----
+notitle: true
 
-<!-- picture-role-groups:
-- {roles: [faculty, postdoc, staff], width: 4}
-- {roles: [grad], width: 8}
+picture-role-groups:
+- {roles: [faculty, staff, grad], width: 12}
+
+no-picture-role-groups:
+- {roles: [alum], width: 12}
+---
 
 <section class="people row justify-content-between">
     {% for role-group in page.picture-role-groups %}
-        <div class="col-md-{{ role-group.width }}">
+        <div class="col-{{ role-group.width }}">
             {% for role in role-group.roles %}
                 {% include role-people.html role=role image=true %}
             {% endfor %}
         </div>
     {% endfor %}
-</section> -->
+</section>
 
-{% include person.html %}
+<section class="people row justify-content-between">
+    {% for role-group in page.no-picture-role-groups %}
+        <div class="col-{{ role-group.width }}">
+            {% for role in role-group.roles %}
+                {% include role-people.html role=role image=false %}
+            {% endfor %}
+        </div>
+    {% endfor %}
+</section>

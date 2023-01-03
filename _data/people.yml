@@ -1,57 +1,73 @@
 mehul-motani:
-    display_name: "Professor Mehul Motani"
+    display_name: "Dr. Mehul Motani"
     webpage: "https://mehulmotani.github.io"
     role: faculty
     image: /img/people/mehul-motani.png
-    bio: Associate Professor
+    title: Associate Professor
+    bio: "Mehul Motani received the B.E. degree from Cooper Union, New York, NY, the M.S. degree from Syracuse University, Syracuse, NY, and the Ph.D. degree from Cornell University, Ithaca, NY, all in Electrical and Computer Engineering.<br><br>
+
+Dr. Motani is currently an Associate Professor in the Electrical and Computer Engineering Department at the National University of Singapore (NUS) and a Visiting Research Collaborator at Princeton University. Previously, he was a Visiting Fellow at Princeton University. He was also a Research Scientist at the Institute for Infocomm Research in Singapore, for three years, and a Systems Engineer at Lockheed Martin in Syracuse, NY for over four years. His teaching and research interests include Biomedical & Health Informatics, Artificial Intelligence & Machine Learning, Information & Coding Theory, Wireless Ad-hoc & Sensor Networks, Internet-of-Things, and 5G.<br><br>
+
+Dr. Motani was the recipient of the Intel Foundation Fellowship for his Ph.D. research, the NUS Annual Teaching Excellence Award, the NUS Faculty of Engineering Innovative Teaching Award, and the NUS Faculty of Engineering Teaching Honours List Award. He actively participates in the Institute of Electrical and Electronics Engineers (IEEE) and the Association for Computing Machinery (ACM). He is a Fellow of the IEEE, a Fellow of the AAIA, and has served as the Secretary of the IEEE Information Theory Society Board of Governors. He has served as an Associate Editor for both the IEEE Transactions on Information Theory and the IEEE Transactions on Communications. He has also served on the Organizing and Technical Program Committees of numerous IEEE and ACM conferences."
 
 dylan-tan:
     display_name: "Dylan Tan"
     role: staff
-    bio: Research Engineer
+    image: /img/people/dylan-tan.png
+    title: Research Engineer
+    bio: "Me Dylan. Me Mehul slave. Me write code. Code gud. Duuhhhhh."
 
 sien-lee:
     display_name: "Lee Si En"
     role: staff
+    title: Research Engineer
     bio: Research Engineer
 
 rohan-ghosh:
     display_name: "Rohan Ghosh"
     role: staff
+    title: Postdoctoral Scholar
     bio: Postdoctoral Scholar
 
 lihwei-chia:
     display_name: "Chia Lih Wei"
     role: grad
+    title: Ph.D. Student
     bio: Ph.D. Student
 
 chongmin-tan:
     display_name: "Tan Chong Min"
     role: grad
+    title: Ph.D. Student
     bio: Ph.D. Student
 
 danliang-ho:
     display_name: "Ho Dan Liang"
     role: grad
+    title: Ph.D. Student
     bio: Ph.D. Student
 
 cheukting-leung:
     display_name: "Leung Cheuk Ting"
     role: grad
+    title: Ph.D. Student
     bio: Ph.D. Student
 
 shelvia-wongso:
     display_name: "Shelvia Wongso"
     role: grad
+    title: Ph.D. Student
     bio: Ph.D. Student
 
 keisen-fong:
     display_name: "Fong Kei Sen"
     role: grad
+    title: Ph.D. Student
     bio: Ph.D. Student
 
 shiyu-liu:
-    display_name: "Liu Shi Yu"
+    display_name: "Dr. Liu Shi Yu"
     role: alum
+    title: Ph.D.
     bio: "Ph.D., 2022. Now at Huawei."
 

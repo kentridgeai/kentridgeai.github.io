@@ -1,5 +1,6 @@
 
 {% assign person = include.person %}
+{% assign name = person.display_name %}
 
 {% comment %}
 
@@ -19,31 +20,71 @@ there by default by Bootstrap columns.
 
 {% endcomment %}
 
-{% if person.webpage %}
-    {% capture name %}
-        <a href="{{ person.webpage | escape }}"> {{ person.display_name }} </a>
-    {% endcapture %}
-{% else %}
-    {% assign name = person.display_name %}
-{% endif %}
 
-{% if include.image %}
-    <div class="person person-with-image row align-items-center">
-        <div class="col-auto">
-            {% include person-image.html person=person %}
+{% if include.is_verbose %}
+    {% if include.image %}
+        <div class="person row align-items-start">
+            <div class="col-auto">
+                {% include person-image.html person=person %}
+            </div>
+            <div class="col-2 pl-0">
+
+                <h6 class="person-name" id="{{ name }}">
+		    {% if person.webpage %}
+			<a href="{{ person.webpage | escape }}"> {{ name }} </a>
+		    {% else %}
+			{{ name }}
+		    {% endif %}
+		</h6>
+
+                {% if person.title %}
+                    <div class="title">{{ person.title }}</div>
+                {% endif %}
+            </div>
+            <div class="col-8">{{ person.bio }}</div>
         </div>
-        <div class="col pl-0">
-            <h6 class="person-name"> {{ name }} </h6>
-            {% if person.bio %}
-                <div class="bio">{{person.bio}}</div>
+    {% else %}
+        <div class="person person-without-image row align-items-start">
+            <div class="col-2 pl-0">
+
+                <h6 class="person-name" id="{{ name }}">
+		    {% if person.webpage %}
+			<a href="{{ person.webpage | escape }}"> {{ name }} </a>
+		    {% else %}
+			{{ name }}
+		    {% endif %}
+		</h6>
+                {% if person.title %}
+                    <div class="title">{{ person.title }}</div>
+                {% endif %}
+            </div>
+            <div class="col-10">{{ person.bio }}</div>
+        </div>
+    {% endif %}
+{% else %}
+    {% if include.image %}
+        <div class="person row align-items-center">
+            <div class="col-auto">
+                {% include person-image.html person=person %}
+            </div>
+            <div class="col pl-0">
+		
+                <h6 class="person-name">
+		    <a href="/people.html#{{ name }}">{{ name }}</a>
+		</h6>
+                {% if person.title %}
+                    <div class="title">{{ person.title }}</div>
+                {% endif %}
+            </div>
+        </div>
+    {% else %}
+        <div class="person person-without-image">
+            <h6 class="person-name">
+		<a href="/people.html#{{ name }}">{{ name }}</a>
+	    </h6>
+            {% if person.title %}
+                <div class="title">{{ person.title }}</div>
             {% endif %}
         </div>
-    </div>
-{% else %}
-    <div class="person person-without-image">
-        {{ name }}
-        {% if person.bio %}
-            <span class="bio">{{person.bio}}</span>
-        {% endif %}
-    </div>
+    {% endif %}
 {% endif %}

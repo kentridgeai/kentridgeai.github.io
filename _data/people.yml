@@ -5,9 +5,7 @@ mehul-motani:
     image: /img/people/mehul-motani.png
     title: Associate Professor
     bio: "Mehul Motani received the B.E. degree from Cooper Union, New York, NY, the M.S. degree from Syracuse University, Syracuse, NY, and the Ph.D. degree from Cornell University, Ithaca, NY, all in Electrical and Computer Engineering.<br><br>
-
 Dr. Motani is currently an Associate Professor in the Electrical and Computer Engineering Department at the National University of Singapore (NUS) and a Visiting Research Collaborator at Princeton University. Previously, he was a Visiting Fellow at Princeton University. He was also a Research Scientist at the Institute for Infocomm Research in Singapore, for three years, and a Systems Engineer at Lockheed Martin in Syracuse, NY for over four years. His teaching and research interests include Biomedical & Health Informatics, Artificial Intelligence & Machine Learning, Information & Coding Theory, Wireless Ad-hoc & Sensor Networks, Internet-of-Things, and 5G.<br><br>
-
 Dr. Motani was the recipient of the Intel Foundation Fellowship for his Ph.D. research, the NUS Annual Teaching Excellence Award, the NUS Faculty of Engineering Innovative Teaching Award, and the NUS Faculty of Engineering Teaching Honours List Award. He actively participates in the Institute of Electrical and Electronics Engineers (IEEE) and the Association for Computing Machinery (ACM). He is a Fellow of the IEEE, a Fellow of the AAIA, and has served as the Secretary of the IEEE Information Theory Society Board of Governors. He has served as an Associate Editor for both the IEEE Transactions on Information Theory and the IEEE Transactions on Communications. He has also served on the Organizing and Technical Program Committees of numerous IEEE and ACM conferences."
 
 dylan-tan:
@@ -17,9 +15,10 @@ dylan-tan:
     title: Research Engineer
     bio: "Me Dylan. Me Mehul slave. Me write code. Code gud. Duuhhhhh."
 
-sien-lee:
+lee-sien:
     display_name: "Lee Si En"
     role: staff
+    image: /img/people/lee-sien.png
     title: Research Engineer
     bio: Research Engineer
 
@@ -29,43 +28,49 @@ rohan-ghosh:
     title: Postdoctoral Scholar
     bio: Postdoctoral Scholar
 
-lihwei-chia:
+chia-lihwei:
     display_name: "Chia Lih Wei"
     role: grad
     title: Ph.D. Student
     bio: Ph.D. Student
 
-chongmin-tan:
-    display_name: "Tan Chong Min"
-    role: grad
-    title: Ph.D. Student
-    bio: Ph.D. Student
-
-danliang-ho:
-    display_name: "Ho Dan Liang"
-    role: grad
-    title: Ph.D. Student
-    bio: Ph.D. Student
-
-cheukting-leung:
-    display_name: "Leung Cheuk Ting"
-    role: grad
-    title: Ph.D. Student
-    bio: Ph.D. Student
-
-shelvia-wongso:
-    display_name: "Shelvia Wongso"
-    role: grad
-    title: Ph.D. Student
-    bio: Ph.D. Student
-
-keisen-fong:
+fong-keisen:
     display_name: "Fong Kei Sen"
     role: grad
     title: Ph.D. Student
     bio: Ph.D. Student
 
-shiyu-liu:
+ho-danliang:
+    display_name: "Ho Danliang"
+    role: grad
+    image: /img/people/ho-danliang.png
+    title: Ph.D. Student
+    bio: "I graduated with a B.Sc (Hons) in Life Sciences and M.Sc from Yong Loo Lin School of Medicine, from National University of Singapore, before working as a bioinformatician in National Cancer Center Singapore and Genome Institute of Singapore. Currently I am a PhD student enrolled in the NUS Graduate School’s Integrated Sciences and Engineering Programme (ISEP), and co-supervised by A/P Mehul Motani (machine learning PI) and Dr Iain Tan (clinical PI from NCCS/GIS).<br><br>
+I am interested in applying machine and deep learning techniques to solve healthcare problems. My work touches on various topics pertinent to healthcare, such as the use of multi-view learning to integrate heterogeneous healthcare data, best practices to handle individual data modalities such as time-series, tabular data, and text data, explainability techniques to probe the black-box nature of deep learning models, and so on. Due to my background in cancer genomics, I am also interested in exploring ways to incorporate biological knowledge in the form of sequencing information to my models.<br><br>
+In my spare time, I enjoy playing the piano, listening to music, and playing with my kid. I also like to travel a lot."
+
+tan-chongmin:
+    display_name: "John Tan Chong Min"
+    role: grad
+    image: /img/people/tan-chongmin.png
+    title: Ph.D. Student
+    bio: Ph.D. Student
+
+leung-cheukting:
+    display_name: "Leung Cheuk Ting"
+    role: grad
+    image: /img/people/leung-cheukting.png
+    title: Ph.D. Student
+    bio: "Ph.D. Student"
+
+shelvia-wongso:
+    display_name: "Shelvia Wongso"
+    role: grad
+    image: /img/people/shelvia-wongso.png
+    title: Ph.D. Student
+    bio: Ph.D. Student
+
+liu-shiyu:
     display_name: "Dr. Liu Shi Yu"
     role: alum
     title: Ph.D.

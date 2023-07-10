@@ -16,13 +16,13 @@
 			<span class="pubtitle">
 				{%- set url = entry|main_url %}
 				{%- if url %}
-					{%- if '.pdf' in url %}
+					{%- if 'pdf' in url %}
 					<img src="img/pdficon_small.png" width="16"
 						height="16" alt="PDF" />
 					{%- endif %}
 				<a href="{{ url|escape }}">{{ entry|title }}</a>.
 				{%- else %}
-				{{ entry|title }}.
+				<strong>{{ entry|title }}</strong>.
 				{%- endif %}
 			</span><br />
 			<span class="authors">
@@ -32,10 +32,17 @@
 			{%- if entry.fields['note'] %}
 			<span class="note">
 			<br />
-			<strong>{{ entry.fields['note']|escape }}</strong>
+			{{ entry.fields['note']|escape }}.
 			</span>
+			{%- endif %}<br />
+
+			<span class="loc_date">
+			{%- if entry.fields['address'] %}
+			{{ entry.fields['address']|escape }}, {{ entry.fields['month']|escape }} {{ entry.fields['year']|escape }}.
+			{%- else %}
+			{{ entry.fields['month']|escape }} {{ entry.fields['year']|escape }}.
 			{%- endif %}
-			<br />
+			</span><br />
 			<span class="links">
 			{%- for type, url in (entry|extra_urls).items() %}
 				[<a href="{{ url|escape }}">{{ type|escape }}</a>]

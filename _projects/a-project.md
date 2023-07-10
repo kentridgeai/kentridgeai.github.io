@@ -9,14 +9,14 @@ description: |
 people:
   - mehul-motani
   - dylan-tan
-  - sien
+  - lee-sien
   - rohan-ghosh
-  - lihwei-chia
-  - chongmin-tan
-  - danliang-ho
-  - cheukting
+  - chia-lihwei
+  - tan-chongmin
+  - ho-danliang
+  - leung-cheukting
   - shelvia-wongso
-  - keisen-fong
+  - fong-keisen
 
 layout: project
 last-updated: 2015-05-05

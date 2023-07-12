@@ -61,7 +61,11 @@ leung-cheukting:
     role: grad
     image: /img/people/leung-cheukting.png
     title: Ph.D. Student
-    bio: "Ph.D. Student"
+    bio: "I received a B.Eng. degree in Electronic and Computer Engineering from the Hong Kong University of Science and Technology in 2018. Currently, I am pursuing a Ph.D. degree with the Electrical and Computer Engineering Department at the National University of Singapore, under the guidance of Prof. Mehul Motani.<br><br>
+
+My research interests revolve around the intersection of communication engineering and machine learning. Specifically, I am engaged in exploring the deployment of deep learning models to tackle complex challenges in channel coding problems, information theory, and Semantic communication problems for future edge communication. By leveraging the power of machine learning techniques, and also utilizing the theoretical aspect of information theory, I seek to uncover innovative solutions that can enhance the efficiency and reliability of communication networks, also use the knowledge from communication theory to understand the black box of machine learning.<br><br>
+
+In my free time, I enjoy playing piano, watching sci-fi movies and anime. I am also interested in photography."
 
 shelvia-wongso:
     display_name: "Shelvia Wongso"
@@ -75,4 +79,11 @@ liu-shiyu:
     role: alum
     title: Ph.D.
     bio: "Ph.D., 2022. Now at Huawei."
+
+rajshekhar:
+    display_name: "Dr. Rajshekhar Vishweshwar Bhat"
+    role: collab
+    title: Assistant Professor
+ 
+ 
 

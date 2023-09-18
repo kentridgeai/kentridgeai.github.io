@@ -8,6 +8,7 @@ people:
   - mehul-motani
   - shelvia-wongso
   - rohan-ghosh
+  - mehul-motani
 
 layout: project
 last-updated: 2022-06-01

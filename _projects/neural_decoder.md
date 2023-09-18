@@ -5,9 +5,9 @@ description: |
   This project aims to design neural network-based decoders for ultra-short linear and non-linear block codes.
 
 people:
-  - mehul-motani
   - leung-cheukting
-  - rajshekhar
+  - rajshekhar-bhat
+  - mehul-motani
 
 layout: project
 last-updated: 2022-11-16

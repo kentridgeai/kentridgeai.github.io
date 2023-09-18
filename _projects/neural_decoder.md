@@ -2,7 +2,7 @@
 title: Low Latency Neural Channel Decoders
 
 description: |
-This project aims to design neural network-based decoders for ultra-short linear and non-linear block codes.
+  This project aims to design neural network-based decoders for ultra-short linear and non-linear block codes.
 
 people:
   - mehul-motani
